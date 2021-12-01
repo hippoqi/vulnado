@@ -3,7 +3,8 @@ pipeline {
  stages {
  stage ('Checkout') {
  steps {
- git branch:'master', url: 'https://github.com/brandonneo/vulnado.git'
+
+ git branch:'master', url: 'https://github.com/hippoqi/vulnado.git'
  }
  }
 
